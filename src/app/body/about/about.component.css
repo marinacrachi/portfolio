@@ -1,0 +1,6 @@
+.photos{
+    max-height: 200px;
+    height: inherit;
+    width: inherit;
+    margin-left: 3%;
+}

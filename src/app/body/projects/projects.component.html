@@ -1,3 +1,45 @@
-<p>
-  projects works!
-</p>
+<div class="row">
+    <div class="col-sm-12">
+      <h3>
+    <strong (click)="mostra(1)">PLAGUE 0</strong>
+      - 
+    <strong (click)="mostra(2)">BRPF 2017</strong>
+    </h3>
+    <br>
+  </div>
+
+  <!-- PLAGUE0 -->
+  <div class="col-sm-6" *ngIf="mostra1">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MtlokG1fQjQ?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+      allowfullscreen></iframe>
+  </div>
+
+  <div class="col-sm-6" *ngIf="mostra1">
+    <h4>PLAGUE0 - Socket.IO/NodeJS (2018)</h4>
+    <p align="justify">Plague0 is a escape room with digital interaction, and the main objective
+      of the game is to develop the teamwork of the players. They got confined in a room and, interacting with a
+      virtual character, solved some puzzles.</p>
+    <p align="justify">My main role in this project was to develop the back-end using Socket.Io/NodeJS, validating the games. I also helped
+      with some ideas for the room, the team dynamics and created custom profiles for each player using the information that
+      the customer gave to me.</p>
+    <p align="justify"><strong>For me this project not only improved my technical skills but my soft skills have grown a lot. I learned a lot about
+      game development, teamwork and how to deal with pressure.</strong></p>
+  </div>
+
+  <!-- BRPF -->
+  <div class="col-sm-6" *ngIf="mostra2">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/R3eIizjDNcQ?rel=0" frameborder="0" allow="autoplay; encrypted-media"
+    allowfullscreen></iframe>
+  </div>
+
+  <div class="col-sm-6" *ngIf="mostra2">
+    <h4>BRPF 2017 - Ionic/NodeJS/MongoDB (2017)</h4>
+    <p align="justify">BRPF is the national Pump it Up championship, and this app was made for players. 
+      The app updated the player scores for each category (Pro Male, Pro Female, Begginers) and also had the stages.</p>
+    <p align="justify">My main role in this project was to develop the back-end using Socket.Io/NodeJS, validating the games. I also helped
+      with some ideas for the room, the team dynamics and created custom profiles for each player using the information that
+      the customer gave to me.</p>
+    <p align="justify"><strong>For me this project not only improved my technical skills but my soft skills have grown a lot. I learned a lot about
+      game development, teamwork and how to deal with pressure.</strong></p>
+  </div>
+</div>
